@@ -7,14 +7,18 @@
 .row > [class^="col-"] {
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: rgb(216, 185, 185);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgb(238, 226, 233);
+  border: 1px solid rgb(205, 166, 166);
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 h1 {
@@ -58,7 +62,7 @@ p {
   flex-wrap: wrap-reverse;
   justify-content: end;
   gap: 30px;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* MENU */
@@ -66,8 +70,8 @@ p {
 .MENU {
   display: flex;
   flex-wrap: wrap-reverse;
-  justify-content: center;
-  gap: 69.5px;
+  justify-content: left;
+  gap: 105px;
 }
 
 h4 {
@@ -94,6 +98,16 @@ h4 {
 .image_01 {
   width: 819px;
   height: 4px;
+  margin: 110px;
+}
+
+.text-img {
+  display: flex;
+  background-image: url(/image\ projet\ vin/01_accueil.png);
+  height: 554px;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .text {
@@ -111,24 +125,22 @@ h4 {
   font-family: Outfit;
   font-size: 20px;
   font-weight: 400;
-}
 
-.Accueil-button {
   display: flex;
-  padding: 15px;
+  padding: 15px 30px;
   width: 356px;
-
   justify-content: center;
   align-items: center;
-  border-radius: 63px;
-  background: rgba(255, 255, 255, 0.5);
+  gap: 30px;
 }
 
-.Accueil-button .item:hover {
-  background: var(--pink);
+.Accueil-button:hover {
+  background: white;
 }
-.Accueil-button .item {
-  transition-duration: 0.5s;
+.Accueil-button {
+  transition-duration: 0.3s;
+  border-radius: 63px;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 /* EGO */
@@ -142,6 +154,7 @@ h4 {
   padding: 95px;
   height: 740px;
   background: #6f4e4e;
+  margin-left: -20%;
 }
 
 .Ego-button {
@@ -154,8 +167,19 @@ h4 {
 
   width: 263px;
   height: 67px;
+}
+
+.Ego-button {
   border-radius: 9px;
   border: 1px solid #fff;
+  background-color: #6f4e4e;
+  transition: 0.2s;
+}
+
+.Ego-button:hover {
+  border: 1px rgba(255, 255, 255, 0.516);
+  color: #6f4e4e;
+  background: rgba(255, 255, 255, 0.516);
 }
 
 /* PHILOSOPHIE */
@@ -172,6 +196,8 @@ h4 {
   padding: 95px;
   height: 563px;
   background: #6f4e4e;
+  position: relative;
+  margin-right: -12%;
 }
 
 /* DECOUVRIR */
@@ -200,7 +226,6 @@ h4 {
 
 .Logo-Tanins-Blanc {
   flex: start;
-  width: 3px;
   height: 20px;
 }
 
@@ -222,37 +247,46 @@ h4 {
   color: #fff;
   font-family: Outfit;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 300;
   height: 72.168px;
   flex-direction: column;
   justify-content: center;
+  display: flex;
 }
 
 .email {
-  display: flex;
   width: 356px;
   padding: 18px;
   border-radius: 17px;
   border: 1px solid #fff;
+  background: #392929;
 }
-
+.email:hover {
+  border: none;
+  background: rgba(255, 255, 255, 0.25);
+}
 .inscription {
   color: #fff;
   font-family: Outfit;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 300;
   height: 72.168px;
   flex-direction: column;
   justify-content: center;
-}
 
-.inscription {
   display: flex;
   width: 261px;
   align-items: center;
   height: 72.168px;
+}
+.inscription {
   border-radius: 17px;
   background: rgba(255, 255, 255, 0.1);
+  transition-duration: 0.2s;
+}
+.inscription:hover {
+  color: #000;
+  background: #fff;
 }
 
 .box {
@@ -261,21 +295,25 @@ h4 {
   gap: 24px;
 }
 
-/* Box 02*/
+/* --------- Box 02 --------- */
 
 .Box_02 {
+  flex-wrap: wrap;
   flex-direction: row;
+}
+
+.Réseaux {
+  padding: 0px;
 }
 
 .Associés {
   display: flex;
-  padding: 50px;
   flex-wrap: wrap-reverse;
-  gap: 10px;
 }
 
 .Bio-Suisse {
-  padding: auto;
+  display: flex;
+  justify-content: end;
 }
 
 .infos {
@@ -288,5 +326,233 @@ h4 {
 
 .infos {
   flex-direction: row;
-  gap: 24px;
+  text-align: center;
+  align-items: center;
+}
+
+/* ---------- VIN ROUGE 🍷 ---------- */
+
+.SEPARATION {
+  height: 2px;
+  opacity: 100;
+  background: #ded6d6;
+  align-items: center;
+  margin: 20px;
+}
+
+.title {
+  color: black;
+  font-family: Outfit;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.name {
+  color: black;
+  font-family: Outfit;
+  font-size: 96px;
+  font-weight: 300;
+}
+h5 {
+  color: #000;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 500;
+  align-items: left;
+}
+h6 {
+  color: #000;
+  font-family: Outfit;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.Detail-01 {
+  display: flex;
+  align-items: left;
+  padding: 20px;
+  gap: 50px;
+}
+
+.INFOS {
+  display: flex;
+  margin-top: 92px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Commander-Rouge {
+  display: flex;
+  margin-top: 102px;
+  margin-bottom: 102px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #000;
+  text-align: center;
+  font-family: outfit;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.Commander-Rouge {
+  width: 357px;
+  height: 93px;
+  border-radius: 20px;
+  background-color: #d4caca;
+}
+.Commander-Rouge:hover {
+  width: 357px;
+  height: 93px;
+  border-radius: 20px;
+  border: 3px solid #000;
+  background: #fff;
+}
+
+.Background-Footer {
+  border: none;
+}
+/* ---------- VIN BLANC 🍾 ---------- */
+
+.SEPARATION_02 {
+  height: 2px;
+  opacity: 0.4;
+  background: #ded6d6;
+  align-items: center;
+  margin: 20px;
+}
+
+.titre {
+  color: black;
+  font-family: Outfit;
+  font-size: 40px;
+  font-weight: 400;
+}
+.Nom {
+  color: black;
+  font-family: Outfit;
+  font-size: 96px;
+  font-weight: 300;
+}
+
+.Detail-02 {
+  display: flex;
+  align-items: left;
+  padding: 20px;
+  gap: 50px;
+}
+
+/* SUGGESTIONS */
+
+.suggestion {
+  color: white;
+  text-align: center;
+  transition-duration: 0.3s;
+}
+.suggestion:hover {
+  color: #000;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 25px;
+  font-weight: 400;
+  justify-content: center;
+
+  width: 261px;
+  height: 352px;
+  border-radius: 20px;
+  background: #e5e0d4;
+}
+
+/* TEMPERATURE */
+
+.température {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  transition-duration: 0.3s;
+}
+
+.température:hover {
+  color: #000;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 25px;
+  font-weight: 400;
+
+  width: 261px;
+  height: 352px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background: #e5e0d4;
+}
+
+.typo {
+  color: #000;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 375px;
+}
+
+/* GARDE */
+
+.garde {
+  color: #fff;
+  text-align: center;
+  transition-duration: 0.3s;
+}
+
+.garde:hover {
+  color: #000;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 25px;
+  font-weight: 400;
+
+  width: 261px;
+  height: 352px;
+  border-radius: 20px;
+  background: #e5e0d4;
+}
+
+.Commander-Blanc {
+  display: flex;
+  margin-top: 102px;
+  margin-bottom: 102px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #000;
+  text-align: center;
+  font-family: outfit;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.Commander-Blanc {
+  width: 357px;
+  height: 93px;
+  border-radius: 20px;
+  background-color: #e5e0d4;
+}
+.Commander-Blanc:hover {
+  width: 357px;
+  height: 93px;
+  border-radius: 20px;
+  border: 3px solid #000;
+  background: #fff;
+}
+
+.RESERVATION {
+  height: 456px;
+  margin-bottom: 124px;
+}
+.RESERVATION {
+  background-image: url(/image\ projet\ vin/reservation.png);
 }

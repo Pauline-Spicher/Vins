@@ -383,13 +383,32 @@ h6 {
 
 .INFOS {
   display: flex;
+  color: #000;
+  font-family: outfit;
+  font-size: 20px;
+  text-align: center;
+
   margin-top: 92px;
-  text-align: left;
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  transition-duration: 0.3s;
 }
 
+.red-température:hover {
+  color: #000;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 25px;
+  font-weight: 400;
+
+  width: 261px;
+  height: 352px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background: #e5e0d4;
+}
 .Red-MEP {
   align-items: center;
   justify-content: center;

@@ -197,7 +197,7 @@ h4 {
   height: 563px;
   background: #6f4e4e;
   position: relative;
-  margin-right: -12%;
+  margin-right: -20%;
 }
 
 /* DECOUVRIR */
@@ -293,13 +293,6 @@ h4 {
   display: flex;
   flex-wrap: wrap-reverse;
   gap: 24px;
-}
-
-/* --------- Box 02 --------- */
-
-.Box_02 {
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 
 .Réseaux {
@@ -552,7 +545,4 @@ h6 {
 .RESERVATION {
   height: 456px;
   margin-bottom: 124px;
-}
-.RESERVATION {
-  background-image: url(/image\ projet\ vin/reservation.png);
 }

@@ -1,0 +1,50 @@
+@import "bootstrap/scss/bootstrap-grid";
+
+.row + .row {
+  margin-top: 16px;
+}
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(216, 185, 185);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 20px;
+}
+
+.langues {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: end;
+  gap: 30px;
+  padding: 10px;
+}
+
+/* MENU */
+
+.MENU {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 69.5px;
+}
+
+h4 {
+  color: black;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 400;
+}

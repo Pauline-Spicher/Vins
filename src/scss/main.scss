@@ -1,0 +1,292 @@
+@import "bootstrap/scss/bootstrap-grid";
+
+.row + .row {
+  margin-top: 16px;
+}
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(216, 185, 185);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 72px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+h3 {
+  color: black;
+  font-family: Outfit;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+p {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 20px;
+}
+
+.langues {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: end;
+  gap: 30px;
+  padding: 10px;
+}
+
+/* MENU */
+
+.MENU {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 69.5px;
+}
+
+h4 {
+  color: black;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* ACCUEIL */
+
+.Accueil {
+  display: flex;
+}
+
+.Accueil {
+  color: #fff;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 94.211px;
+  font-weight: 400;
+}
+
+.image_01 {
+  width: 819px;
+  height: 4px;
+}
+
+.text {
+  padding: (116px, 162px, 200px, 162px);
+  color: #fff;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 94.211px;
+  font-weight: 400;
+}
+
+.Accueil-button {
+  color: #000;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Accueil-button {
+  display: flex;
+  padding: 15px;
+  width: 356px;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 63px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.Accueil-button .item:hover {
+  background: var(--pink);
+}
+.Accueil-button .item {
+  transition-duration: 0.5s;
+}
+
+/* EGO */
+
+.image_02 {
+  width: 6px;
+  height: 352px;
+}
+
+.Background-Ego {
+  padding: 95px;
+  height: 740px;
+  background: #6f4e4e;
+}
+
+.Ego-button {
+  padding: 15px;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+
+  width: 263px;
+  height: 67px;
+  border-radius: 9px;
+  border: 1px solid #fff;
+}
+
+/* PHILOSOPHIE */
+
+.Background-Philo {
+  padding: 75px;
+  height: 288px;
+  background: #6f4e4e;
+}
+
+/* QUI SOMMES-NOUS ? */
+
+.Background-QSN {
+  padding: 95px;
+  height: 563px;
+  background: #6f4e4e;
+}
+
+/* DECOUVRIR */
+
+.DECOUVRIR {
+  padding: 120px;
+}
+
+.Découvrir {
+  color: black;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* FOOTER */
+
+.Background-Footer {
+  background: #392929;
+}
+
+.Box-01 {
+  flex-direction: row;
+  padding: auto;
+}
+
+.Logo-Tanins-Blanc {
+  flex: start;
+  width: 3px;
+  height: 20px;
+}
+
+.adresse {
+  width: 251px;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.Newsletter {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.email {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 25px;
+  font-weight: 400;
+  height: 72.168px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.email {
+  display: flex;
+  width: 356px;
+  padding: 18px;
+  border-radius: 17px;
+  border: 1px solid #fff;
+}
+
+.inscription {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 25px;
+  font-weight: 400;
+  height: 72.168px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inscription {
+  display: flex;
+  width: 261px;
+  align-items: center;
+  height: 72.168px;
+  border-radius: 17px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 24px;
+}
+
+/* Box 02*/
+
+.Box_02 {
+  flex-direction: row;
+}
+
+.Associés {
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap-reverse;
+  gap: 10px;
+}
+
+.Bio-Suisse {
+  padding: auto;
+}
+
+.infos {
+  color: #fff;
+  text-align: right;
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.infos {
+  flex-direction: row;
+  gap: 24px;
+}

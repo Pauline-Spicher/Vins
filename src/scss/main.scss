@@ -71,15 +71,15 @@ p {
 }
 
 .gras {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
 }
 /* MENU */
 
 .MENU {
   display: flex;
   flex-wrap: wrap-reverse;
-  justify-content: left;
+  justify-content: center;
   gap: 105px;
 }
 
@@ -134,17 +134,15 @@ h4 {
   font-family: Outfit;
   font-size: 20px;
   font-weight: 400;
-
+  justify-content: center;
   padding: 15px 30px;
   width: 356px;
   justify-content: center;
-}
-
-.Accueil-button {
   transition-duration: 0.3s;
   border-radius: 63px;
   background: rgba(255, 255, 255, 0.5);
 }
+
 .Accueil-button:hover {
   background: white;
 }
@@ -394,6 +392,20 @@ h6 {
   flex-direction: row;
   transition-duration: 0.3s;
 }
+.red-suggestion:hover {
+  color: #000;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 25px;
+  font-weight: 400;
+
+  width: 261px;
+  height: 352px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background: #d4caca;
+}
 
 .red-température:hover {
   color: #000;
@@ -407,12 +419,22 @@ h6 {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background: #e5e0d4;
+  background: #d4caca;
 }
-.Red-MEP {
+
+.red-garde:hover {
+  color: #000;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 25px;
+  font-weight: 400;
+
+  width: 261px;
+  height: 352px;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  border-radius: 20px;
+  background: #d4caca;
 }
 .Commander-Rouge {
   display: flex;
@@ -593,7 +615,7 @@ h6 {
   height: 20px;
 }
 
-.adresse {
+.adresse-blanc {
   width: 251px;
   color: #000;
   font-family: Outfit;
@@ -635,6 +657,7 @@ h6 {
 
 .inscription-blanc {
   color: #000;
+  margin-top: 400px;
   font-family: Outfit;
   font-size: 25px;
   font-weight: 400;

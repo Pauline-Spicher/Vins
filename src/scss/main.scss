@@ -402,7 +402,7 @@ h6 {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background: #d4caca;
+  background: #c0aaab;
 }
 
 .red-température:hover {
@@ -421,7 +421,7 @@ h6 {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background: #d4caca;
+  background: #c0aaab;
 }
 
 .red-garde:hover {
@@ -438,7 +438,7 @@ h6 {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  background: #d4caca;
+  background: #c0aaab;
 }
 
 .Commander-Rouge {
@@ -533,29 +533,17 @@ h6 {
 
 /* TEMPERATURE */
 
-.température {
-  color: #fff;
-  text-align: center;
-  font-size: 20px;
-}
-
-.température-blanc {
-  color: #fff;
-  font-size: 5px;
-}
-.température:hover {
+.température-blanc:hover {
   color: #000;
   text-align: center;
   font-family: Outfit;
   font-size: 25px;
   font-weight: 400;
-  margin: 0 auto;
-  transition-duration: 0.2s;
   .typo {
     color: #000;
-    font-size: 35px;
   }
-
+  transition-duration: 0.2s;
+  margin: 0 auto;
   width: 261px;
   height: 352px;
   align-items: center;

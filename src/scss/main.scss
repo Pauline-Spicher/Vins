@@ -388,13 +388,6 @@ h6 {
   transition-duration: 0.3s;
 }
 
-.red-typo {
-  color: #fff;
-  text-align: center;
-  font-family: Outfit;
-  font-size: 35px;
-}
-
 .red-suggestion:hover {
   color: #000;
   text-align: center;
@@ -418,7 +411,7 @@ h6 {
   font-family: Outfit;
   font-size: 25px;
   font-weight: 400;
-  .red-typo {
+  .typo {
     color: #000;
   }
   transition-duration: 0.2s;
@@ -546,6 +539,10 @@ h6 {
   font-size: 20px;
 }
 
+.température-blanc {
+  color: #fff;
+  font-size: 5px;
+}
 .température:hover {
   color: #000;
   text-align: center;
@@ -554,6 +551,10 @@ h6 {
   font-weight: 400;
   margin: 0 auto;
   transition-duration: 0.2s;
+  .typo {
+    color: #000;
+    font-size: 35px;
+  }
 
   width: 261px;
   height: 352px;
@@ -564,13 +565,6 @@ h6 {
 }
 
 /* GARDE */
-
-.typo {
-  color: #fff;
-  text-align: center;
-  font-family: Outfit;
-  font-size: 35px;
-}
 
 .garde {
   color: #fff;
@@ -585,9 +579,7 @@ h6 {
   font-weight: 400;
   margin: 0 auto;
   transition-duration: 0.2s;
-  .typo {
-    color: #000;
-  }
+
   width: 261px;
   height: 352px;
   border-radius: 20px;
@@ -755,4 +747,11 @@ h6 {
   font-family: Outfit;
   font-size: 15px;
   font-weight: 400;
+}
+
+.typo {
+  color: #fff;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 35px;
 }
